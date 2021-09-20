@@ -1,0 +1,203 @@
+/* This stylesheet provides styles for index.html */
+nav{
+	background-color: #7fab7f;
+	text-align: center;
+	position: fixed;
+  	top: 0;
+  	padding-top: 0.5em;
+ 	width: 100%;
+ 	z-index: 100;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  transition: .3s background-color;
+}
+ 
+nav a:hover {
+  background-color: #005f5f;
+}
+ 
+nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+ul {
+  	list-style-type: none;	
+}
+
+li {
+  	display: inline;
+  	margin-left: 4em;
+  	margin-right: 4em;
+  	font-family: fantasy;
+  	font-weight: 700;
+  	font-size: 18px;
+}
+
+
+#title{
+	background-image: url("images/home/background.jpg");
+	background-size: cover;
+	padding: 250px;
+}
+
+#main_title{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: white;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 3em;
+	font-weight: 800;
+	text-shadow: 3px 4px #008000;
+	border: 5px double white;
+}
+
+#subtitle{
+	text-align: center;
+	color: white;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-shadow: 2px 2px #008000;
+}
+
+#about{
+	background-color: #91a716;
+	padding-bottom: 8em;
+	padding-top: 4em;
+}
+
+.text_div{
+	padding: 5em;
+}
+
+#about_title{
+	text-align: left;
+	color: #FFF8DC;
+	font-family: "Georgia", serif;
+	font-size: 2em;
+	padding-top: 1em;
+	text-shadow: 2px 2px #008000;
+}
+
+.text_in_white{
+	color: #FFF8DC;
+	font-family: "Georgia", serif;
+	font-size: 1.1em;
+	text-shadow: 2px 1px #006400;
+	line-height: 1.6;
+}
+
+#about_intro{
+	text-align: left;
+	padding-top: 4em;
+}
+
+.image_div{
+	width: 500px;
+	float: right;
+	position: relative;
+	right: 30px;
+	bottom: 380px;
+}
+
+#postsection{
+	padding-top: 7em;
+}
+
+
+#postsection h2{
+	text-align: center;
+	position: relative;
+	bottom: 10px;
+}
+
+.subheading{
+	text-align: center;
+	color: #2F4F4F;
+	font-family: "Georgia", serif;
+	font-size: 1.5em;
+	text-shadow: 2px 2px #A8E5AC;
+}
+
+.div{
+	text-align: center;
+	padding-top: 5em;
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-bottom: 2em;
+}
+
+/* post styles updates_home div from home_update.php */
+.post_div{
+	border: 3px ridge #00800091;
+	padding: 2em;
+	margin: 2em;
+	background-color: #f9fdf9;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+
+.username{
+	font-family: serif;
+	font-size: 25px;
+	font-weight: 800;
+	display: inline;
+}
+
+.uploaded{
+	font-family: serif;
+	display: inline;
+	color: gray;
+}
+
+.time{
+	font-family: serif;
+	display: inline;
+	color: gray;
+}
+
+.choice{
+	font-family: serif;
+}
+
+.description{
+	font-family: serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.post_img{
+	width: 500px;
+	height: auto;
+}
+
+
+
+/* back to styles for index.html*/
+#gallerysection{
+	padding-top: 5em;
+	padding-bottom: 5em;
+	text-align: center;
+}
+
+
+#western h2, #western p, #eastern h2, #eastern p{
+	text-align: center;
+}
+
+.cuisine{
+	width: 100%;
+	text-align: center;
+}
+
+.cuisine img{
+	width: 400px;
+	height: 250px;
+}

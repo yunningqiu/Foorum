@@ -1,0 +1,200 @@
+/* This stylesheet provides style for post.php, gallery.php and my_uploads.php */
+/* style for post.php */
+html{
+	background-image: url("images/home/foodie.jpg");
+}
+
+#menu{
+	background-color: #7fab7f;
+	text-align: center;
+	position: fixed;
+  	top: 0;
+  	padding-top: 2em;
+ 	width: 100%;
+}
+
+#menu h1{
+	font-family: fantasy;
+	display: inline;
+	border: 10px double white;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.1em;
+	position: relative;
+	left: 50px;
+}
+
+#menu a{
+  text-decoration: none;
+  color: #fff;
+  transition: .3s background-color;
+}
+
+#logout_div{
+	float: right;
+}
+
+#logout{
+	background-color: #4CAF50;
+	color: white;
+	padding: 2px;
+	font-family: fantasy;
+	font-size: 15px;
+	margin-top: 20px;
+	width: 80px;
+	position: relative;
+	right: 50px;
+	border: 1px dashed;
+}
+
+ul {
+  	list-style-type: none;	
+  	padding-top: 15px;
+}
+
+li {
+  	display: inline;
+  	margin-left: 4em;
+  	margin-right: 4em;
+  	font-family: fantasy;
+  	font-weight: 700;
+  	font-size: 18px;
+}
+
+#menu a:hover {
+  background-color: #005f5f;
+}
+ 
+#menu a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+main, footer{
+	margin-top: 150px;
+}
+
+#welcome{
+	font-family: fantasy;
+	font-weight: 900;
+	font-size: x-large;
+	color: #335233;
+	text-shadow: 1px 1px #04ff00;
+	text-align: center;
+	padding-top: 30px;	
+}
+
+span{
+	background-color: #f9fdf9;
+	padding: 3px;
+}
+
+form{
+	font-family: serif;
+	padding: 2em;
+	border: 5px double #008000;
+	background-color: #f9fdf9;
+	width: 800px;
+	margin: 0 auto;
+}
+
+form p{
+	font-weight: 900;
+	font-size: 20px;
+}
+
+#text{
+	width: 600px;
+	height: 120px;
+	border: 1px solid #444242;
+	padding: 5px;
+}
+
+.post_div{
+	border: 3px ridge #00800091;
+	padding: 2em;
+	margin: 2em;
+	background-color: #f9fdf9;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+
+.username{
+	font-family: serif;
+	font-size: 25px;
+	font-weight: 800;
+	display: inline;
+}
+
+.uploaded{
+	font-family: serif;
+	display: inline;
+	color: gray;
+}
+
+.time{
+	font-family: serif;
+	display: inline;
+	color: gray;
+}
+
+.choice{
+	font-family: serif;
+}
+
+.description{
+	font-family: serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.post_img{
+	width: 500px;
+	height: auto;
+}
+
+
+/* additional style for gallery.php and my_uploads.php*/
+.gallery_div{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.gallery_head{
+	color: white;
+	font-family: fantasy;
+	font-size: 30px;
+	text-shadow: 1px 2px green;
+}
+
+.green{
+	background-color: #335233;
+}
+
+.gallery_img{
+	width: 500px;
+	height: 350px;
+	border: 2px solid #444242;
+	margin: 1px;
+}
+
+
+/* additional style for my_uploads.php*/
+#login_div{
+	text-align: center;
+}
+
+#login{
+	background-color: #4CAF50;
+	color: white;
+	padding: 8px 8px;
+	font-family: fantasy;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	width: 150px;
+}
+
+
